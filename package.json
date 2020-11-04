@@ -1,0 +1,20 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "node demo project",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anup-cypher/NodeApp.git"
+  },
+  "author": "Anup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anup-cypher/NodeApp/issues"
+  },
+  "homepage": "https://github.com/Anup-cypher/NodeApp#readme"
+}
