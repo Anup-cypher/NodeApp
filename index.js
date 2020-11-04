@@ -8,7 +8,7 @@ let server = http.createServer((request, response)=>{
 		response.write('<html><body><h1>Hello World</h1><p>This is root page</p></body></html>');
 		response.end();
 	}else if(request.url === '/profile'){
-		response.write('<html><body><h1>Hello IIMS</h1><p>This is profile page</p></body></html>');
+		response.write('<html><body><h1>Hello IIMS College</h1><p>This is profile page</p></body></html>');
 		response.end();
 	}else{
 		response.writeHead(404, {
